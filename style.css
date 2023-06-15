@@ -6,7 +6,7 @@ body {
 #bar {
   width: calc(100% - 20px);
   padding: 10px;
-  height: 50px;
+  height: 60px;
   /* position: fixed; */
   z-index: 10;
   background: rgba(255, 66, 148, 0.909);
@@ -14,7 +14,7 @@ body {
 }
 
 #bar img {
-  height: 50px;
+  height: 60px;
 }
 
 #bar #link {
@@ -48,17 +48,18 @@ body {
 
 #section1 h1 {
   color: white;
-  font-size: 7vw;
-  margin-top: 70px;
+  font-size: 20vw;
   font-family: "Inter";
+  margin: 0;
+  padding: 0;
 }
 
-#section1 h3 {
-  color: antiquewhite;
-  font-size: 4vw;
-  margin-bottom: 20px;
-  font-family: "IM Fell Great Primer";
-}
+#section1 h2 {
+    color: white;
+    font-size: 10vw;
+    font-family: "Bebas Neue";
+    margin: 0;
+  }
 
 .headings {
   color: rgb(86, 71, 71);
